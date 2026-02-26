@@ -12,12 +12,12 @@ import { UsersModule } from './user/users.module';
   imports: [
     TypeOrmModule.forFeature([User]),
     TypeOrmModule.forRoot({
-      type: 'postgres',
-      host: 'aws-0-us-west-2.pooler.supabase.com',
-      port: 6543,
-      username: 'postgres.wtyndmmkeasqydxmfuia',
-      password: 'ADSO-trece-development-DATABASE',
-      database: 'postgres',
+      type: 'XXXXXXXXXXXXXXXXXXXX',
+      host: 'XXXXXXXXXXXXXXXXXXXX',
+      port: XXXXXXXXXXXXXXXXXXXX,
+      username: 'XXXXXXXXXXXXXXXXXXXX',
+      password: 'XXXXXXXXXXXXXXXXXXXX',
+      database: 'XXXXXXXXXXXXXXXXXXXX',
       entities: [User],
       synchronize: true, 
     }),
