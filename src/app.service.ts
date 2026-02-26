@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-const hola = "santiago";
+const hola: string = "Luis";
 
 @Injectable()
 export class AppService {
@@ -9,7 +9,7 @@ export class AppService {
   }
 
   getHola(): string {
-    return `Hola mundo ${hola}`;
+    return `Hola mundo luis ${hola}`;
   }
 
   getCurrentDateTime(): string {
